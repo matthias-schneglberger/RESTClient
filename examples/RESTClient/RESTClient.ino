@@ -74,7 +74,7 @@ void setup() {
     client.send( F("My%20Arduino%20Sensor"), 13 );
   }
   else {
-    // kf you didn't get a connection to the server:
+    // if you didn't get a connection to the server:
     Serial.println("connection failed");
   }
 }
